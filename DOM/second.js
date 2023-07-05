@@ -1,1 +1,1 @@
-console.log(" ok second file");
+console.log(" second file");
