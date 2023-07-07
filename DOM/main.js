@@ -13,6 +13,7 @@ function addItem(e){
 
     // Get input value
     var newItem = document.getElementById('item').value;
+    var newItem = document.getElementById('description').value;
 
     //Create new li element
     var li = document.createElement('li');
@@ -26,7 +27,7 @@ function addItem(e){
     var deleteBtn = document.createElement('button');
 
     //Add classes to del button
-    deleteBtn.className = 'btn btn-danger btn-smfloat-right delete';
+    deleteBtn.className = 'btn btn-danger btn-sm float-right delete';
 
     //Append text node
 
