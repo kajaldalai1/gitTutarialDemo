@@ -48,7 +48,7 @@
     border-radius: 5px;
     border: 1px solid #ccc;
   }
-  #my-form input[type='number'] {
+  #my-form input[type='tel'] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;

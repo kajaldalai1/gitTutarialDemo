@@ -364,7 +364,7 @@ function onSubmit(e) {
     // Add text node with input values
     li.appendChild(document.createTextNode(`${nameInput.value}: ${emailInput.value}`));
     //Add HTML
-    li.innerHTML = `<strong>${nameInput.value}</strong>e: ${emailInput.value} `;
+    li.innerHTML = `<strong>${nameInput.value}</strong>e: ${emailInput.value}e: ${phoneNumber.value}`;
     
     // Append to ul
     userList.appendChild(li);
